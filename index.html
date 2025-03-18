@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amor Abigail</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px white;
+        }
+    </style>
+</head>
+<body onclick="PlayAudio()">
+    <h1>Te Amo Abigail ❤️</h1>
+    <div class="gallery">
+        <img src="C:\Users\User\Documents\audio\image/tomm2.jpg" alt="Imagen 1">
+        <img src="C:\Users\User\Documents\audio\image/tommy1.jpg" alt="Imagen 3">
+    </div>
+    <audio id="amor" loop>
+        <source src="Justin Bieber - Company (Audio).mp3" type="audio/mp3">
+ 
+    </audio>
+</body>
+<script>
+    function PlayAudio(){
+        document.getElementById("amor").play();
+    }
+</script>
+</html>
+
+
+
+
